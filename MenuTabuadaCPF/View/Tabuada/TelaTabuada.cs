@@ -25,7 +25,7 @@ namespace MenuTabuadaCPF.View.Tabuada
             numero = Convert.ToInt32(tbxNumero.Text);
 
 
-            for (int i = 0; i < 10; i++)
+            for (int i = 0; i < 11; i++)
             {
                 lbxResultado.Items.Add(numero + " x " + i + " = " + i * numero);
             }
@@ -39,9 +39,9 @@ namespace MenuTabuadaCPF.View.Tabuada
 
         private void tbxNumero_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if (e.KeyChar == 3)
+            if (e.KeyChar == 13)
             {
-                LimparTela();
+            LimparTela();
             CalcularTabuada(); 
         }
         }

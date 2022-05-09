@@ -75,6 +75,7 @@ namespace MenuTabuadaCPF.View.Tabuada
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Sistema de tabuada";
+            this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tbxNumero_KeyPress);
             this.ResumeLayout(false);
             this.PerformLayout();
 

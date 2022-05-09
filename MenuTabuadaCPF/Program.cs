@@ -1,3 +1,4 @@
+using MenuTabuadaCPF.View;
 using MenuTabuadaCPF.View.Tabuada;
 using System;
 using System.Collections.Generic;
@@ -18,7 +19,7 @@ namespace MenuTabuadaCPF
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new TelaTabuada());
+            Application.Run(new TelaMenuPrincipal());
         }
     }
 }
